@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body{
+font-family:sans-serif;
+background color:red;
+
+}
+header{
+background-color: white;
+width: 200px;
+margin: 0 auto;
+
+}
+
+main{
+background-color: white;
+width: 400px;
+margin: 0 auto;
+padding:10px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+padding-left:10px;
+
+
+}
+
+h1{
+  color:green;
+  font-family: 'Lora', serif;
+}
+
+h2{
+color: pink;
+
+}
+
+h3 em{
+  text-decoration: underline;
+  Color: blue;
+}
+a:hover{
+color: black;
+}
+nav{
+  width:300px;
+  margin:0 auto;
+
+}
+
+
+nav ul{
+
+
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: purple;
+  font-size:30px;
+  font-weight:bold;
+
+}
+nav ul li a:hover{
+  background-color: pink;
+
+
+}
+p{
+  line-height:50px;
+}
+  #centertext{
+    text-align: center;
+    color:blue
+  }
+  .greyout{
+    color:grey;
+}
+
+section{
+margin-bottom:100px;
+
+}
+.work{
+margin-bottom: 50px;
+width:300px;
+height: 300px;
+display: inline-block;
+background-color: blue;
+}
+
+#moveUp{
+margin-top: -50px;
+
+
+}
