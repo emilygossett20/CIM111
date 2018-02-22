@@ -1,101 +1,87 @@
-@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Acme');
 
 body{
-font-family:sans-serif;
-background color:red;
+background-color: orange;
+font font-family: sans-serif;
 
 }
+
 header{
-background-color: white;
-width: 200px;
-margin: 0 auto;
-
-}
-
-main{
-background-color: white;
-width: 400px;
-margin: 0 auto;
-padding:10px;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-right: 10px;
-padding-left:10px;
-
-
+background-color: yellow;
+width:1200px;
+margin:0 auto;
 }
 
 h1{
-  color:green;
-  font-family: 'Lora', serif;
+color: pink;
+text-decoration: underline;
+font-family: Pacifico;
+
 }
 
 h2{
-color: pink;
+color: blue;
+font-family: Acme;
 
 }
 
-h3 em{
-  text-decoration: underline;
-  Color: blue;
+h3{
+color:grey;
+font-family: Acme;
+
 }
+
+
 a:hover{
-color: black;
-}
-nav{
-  width:300px;
-  margin:0 auto;
+color:red;
 
 }
-
-
-nav ul{
-
-
+a{
+text-decoration: none;
 }
-
-nav ul li{
-  list-style: none;
-  display: inline-block;
-  margin-right: 20px;
-}
-nav ul li a{
-  text-decoration: none;
-  color: purple;
-  font-size:30px;
-  font-weight:bold;
-
-}
-nav ul li a:hover{
-  background-color: pink;
-
-
-}
-p{
-  line-height:50px;
-}
-  #centertext{
-    text-align: center;
-    color:blue
-  }
-  .greyout{
-    color:grey;
-}
-
-section{
-margin-bottom:100px;
-
-}
-.work{
-margin-bottom: 50px;
-width:300px;
-height: 300px;
-display: inline-block;
-background-color: blue;
+#centerText{
+text-align: center;
 }
 
 #moveUp{
-margin-top: -50px;
+margin-bottom: -10px;
+}
 
 
+.home{
+margin-bottom: 10px;
+width:350px;
+height: auto;
+display:inline-block;;
+padding:20px;
+background-color:green;
+vertical-align: top;
+}
+.box{
+margin-bottom: 10px;
+width: 350px;
+height: auto;
+display: inline-block;
+padding: 20px;
+background-color: blue;
+vertical-align: top;
+
+}
+
+.square{
+width:350px;
+height:auto;
+display: inline-block;
+padding:20px;
+background-color:red;
+vertical-align:top;
+}
+
+.font{
+font-size: 30px;
+}
+
+.colorTable{
+background-color: purple;
 }
