@@ -64,20 +64,41 @@ text-decoration: none;
 
 
 .home{
-  margin-bottom: 300px
-  width:300px;
-  height:300px;
+  margin-bottom: 10px;
+  width:350px;
+  height: auto;
   display:inline-block;;
   padding:20px;
   background-color:green;
+  vertical-align: top;
 }
-.resume{
-   margin-bottom: 600px;
-   width: 300px;
-   height: 300px;
-   display: inline-block;
+.box{
+   margin-bottom: 10px;
+   width: 350px;
+   height: auto;
+    display: inline-block;
    padding: 20px;
-   background-color: blue;}
+   background-color: blue;
+   vertical-align: top;
+
+ }
+
+ .square{
+   width:350px;
+   height:auto;
+   display: inline-block;
+   padding:20px;
+   background-color:red;
+   vertical-align:top;
+ }
+
+.font{
+  font-size: 30px;
+}
+
+.colorTable{
+  background-color: purple;
+}
 
 
     </style>
@@ -120,12 +141,12 @@ text-decoration: none;
         </section>
 
 
-        <section>
+        <section class="box">
             <h1>Education</h1>
             <h3>University of Miami</h3>
             <img src= "https://grad.miami.edu/_assets/images/homepage/full-width-slider/1600x5501.jpg" width="320">
 <!--This is a photo of University of Miami-->
-<table border="1">
+<table border="1" class="colorTable">
       <tr>
                 <th>Class</th>
                 <th>Day</th>
@@ -160,7 +181,7 @@ text-decoration: none;
           </section>
 
 
-<section>
+<section class="square">
             <h1>Work Experience</h1>
             <ul>
               <li>Summer Camp Counsellor</li> </ul>
@@ -170,7 +191,7 @@ text-decoration: none;
 </body>
 <footer>
       <h2>Contact me at</h2>
-      <address>Emily Gossett<br>
+      <address class="font">Emily Gossett<br>
       6620 SW 57th Avenvue<br>
       South Miami, Fl 33143
       </address>
