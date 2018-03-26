@@ -49,3 +49,9 @@ display: block;
 color: lightblue;
 text-align: center;
 }
+.zta-images{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+}
