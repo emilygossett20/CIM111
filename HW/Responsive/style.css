@@ -1,0 +1,77 @@
+
+.container{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.box{
+  max-width: 100%;
+  background-color: lightblue;
+}
+
+.box1{
+  max-width: 100%;
+  background-color: pink;
+}
+
+
+
+header{
+background-color: grey;
+
+}
+
+h1{
+color: white;
+font-family: 'Dancing Script',cursive;
+text-align: center;
+
+}
+
+nav ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+
+}
+nav li{
+
+display: inline;
+text-align: center;
+
+
+}
+li a{
+
+display: block;
+color: lightblue;
+text-align: center;
+}
+
+.zta-images{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+main{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.figure1{
+  grid-column: span 3;
+  grid-row: span 2;
+}
+
+.figure-img{
+display: inline-block;
+width: 200px;
+height: auto;
+object-fit: cover;
+
+}
