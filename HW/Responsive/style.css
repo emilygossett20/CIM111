@@ -49,29 +49,3 @@ display: block;
 color: lightblue;
 text-align: center;
 }
-
-.zta-images{
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-
-}
-
-main{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
-}
-
-.figure1{
-  grid-column: span 3;
-  grid-row: span 2;
-}
-
-.figure-img{
-display: inline-block;
-width: 200px;
-height: auto;
-object-fit: cover;
-
-}
