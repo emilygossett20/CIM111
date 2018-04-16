@@ -6,8 +6,27 @@
 <style>
 .imagecap{
   max-width: 1005;
-  background-color: lightblue;
+
 }
+
+header{
+  font-size: 80px;
+  font-style: italic;
+  background-color: pink;
+}
+
+main{
+  margin: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: lightblue;
+  font-style: italic;
+  text-align: center;
+
+}
+
+
+
 
 </style>
 
@@ -20,29 +39,29 @@
 <main>
   <p> Click the photo to see the step that goes along with it to learn how to make brownies!</p>
 
-      <div class="imagecap" id="imagecaption1">
+      <div class="imagecap" >
           <div class="images" id="image1"><img src="images/brownies1.jpg"width="320px;"></div>
           <div class="imagecaptions" id="imagecaption1">The first step to making brownies is to mix the powder in the box in a bowl with half a cup of water and a table spoon of oil. Wisk until the batter is fully mixed and creamy. </div>
       </div>
 
 
-       <div class="imagecap" id="imagecaption2">
+       <div class="imagecap" >
           <div class="images" id="image2"><img src="images/brownies2.jpg" width="320px;"></div>
           <div class="imagecaptions" id="imagecaption2">After adding the water and oil the next step is to crack one egg and add it to the batter. Mix the batter again until its creamy.</div>
 
       </div>
 
-      <div class="imagecap" id="imagecaption3">
+      <div class="imagecap" >
          <div class="images" id="image3"><img src="images/brownies3.jpg" width="320px;"></div>
          <div class="imagecaptions" id="imagecaption3">The third step is the grease a medium sized square pan with oil and pour the batter evenly across the pan.</div>
      </div>
 
-     <div class="imagecap" id="imagecaption4">
+     <div class="imagecap" >
         <div class="images" id="image4"><img src="images/brownies4.jpg" width="320px;"></div>
         <div class="imagecaptions" id="imagecaption4">After the batter is in the pan place is in an oven set to and already heated to 350 degrees Farenheit.As the brownies cook. Periodically check to see if the brownies are cooked by inserting a toothpick into the batter. </div>
     </div>
 
-    <div class="imagecap" id="imagecaption5">
+    <div class="imagecap" >
        <div class="images" id="image5"><img src="images/brownies5.jpg" width="320px;"></div>
        <div class="imagecaptions" id="imagecaption5">Once they are finished take the pan out of the oven and let the brownies cool for 30 minutes. Use a plastic knife to cut the brownies into squares. </div>
    </div>
@@ -53,13 +72,13 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script>
 $(document).ready(function(){
-  $("#imageaption1").hide();
+  $("#imagecaption1").hide();
   $("#imagecaption2").hide();
   $("#imagecaption3").hide();
   $("#imagecaption4").hide();
   $("#imagecaption5").hide();
 
-  $("#imagecaption1").click(function(){
+  $("#image1").click(function(){
       $("#imagecaption1").toggle();
   });
    $("#imagecaption1").mouseenter(function(){
@@ -68,7 +87,7 @@ $(document).ready(function(){
   $("#imagecaption1").mouseleave(function(){
        $("#imagecaption1").css("background-color", "rgb(255,255,255)");
   });
-  $("#imagecaption2").click(function(){
+  $("#image2").click(function(){
       $("#imagecaption2").toggle();
   });
    $("#imagecaption2").mouseenter(function(){
@@ -77,8 +96,8 @@ $(document).ready(function(){
   $("#imagecaption2").mouseleave(function(){
        $("#imagecaption2").css("background-color", "rgb(255,255,255)");
 });
-  $("#imagecaption3").click(function(){
-    $(#imagecaption3).toggle();
+  $("#image3").click(function(){
+    $("#imagecaption3").toggle();
   });
   $("#imagecaption3").mouseenter(function(){
       $("#imagecaption3").css("background-color", "rgb(0,0,0)");
@@ -88,8 +107,8 @@ $(document).ready(function(){
 
   });
 
-  $("#imagecaption4").click(function(){
-    $(#imagecaption4).toggle();
+  $("#image4").click(function(){
+    $("#imagecaption4").toggle();
   });
 
   $("#imagecaption4").mouseenter(function(){
@@ -101,7 +120,7 @@ $(document).ready(function(){
 
 });
 
-$("#imagecaption5").click(function(){
+$("#image5").click(function(){
   $("#imagecaption5").toggle();
 });
 
