@@ -12,6 +12,10 @@
 
 <style>
 
+header{
+	font-style: italic;
+}
+
 .slider{
 	width: 100%;
 	height: 100%;
@@ -35,33 +39,73 @@ Cabo Mexico
 </header>
 
 <main>
-  <div class='slider'>
+
+	<p><h1>Los Cabos, Mexico</h1>
+	<h2>Los Cabos, Mexico is located at the tip of Mexicos state Baja California Sur.</h2>
+	<h1>Culture</h1>
+	<h2>The culture of Cabo is very typical mexican culture. It has a unique history of pirates colonizing its beaches and contributing language and technology to that part of the country. In March Los Cabos celebrates the Festival of San Jose whose the towns patron saint. The Festival consists of an 11 day parade with music and food taditional to Cabo. </h2> </p>
+
+	<div class='slider'>
 	<div class='slide'>
 		<div class='slidecontent'>
-			<h1>Los Cabos, Mexico</h1>
-			<h2>Los Cabos, Mexico is located at the tip of Mexicos state Baja California Sur.</h2>
+			<img src="pluginimages/IMG_2184">
 		</div>
 	</div>
+
 	<div class='slide' >
 		<div class='slidecontent'>
-			<h1>Culture</h1>
-			<h2>The culture of Cabo is very typical mexican culture. It has a unique history of pirates colonizing its beaches and contributing language and technology to that part of the country. In March Los Cabos celebrates the Festival of San Jose whose the towns patron saint. The Festival consists of an 11 day parade with music and food taditional to Cabo. </h2>
+			<img src="pluginimages/IMG_2234">
 		</div>
 	</div>
-</div>
 
+	<div class='slides'>
+		<div class='slide'>
+			<img scr="pluginimages/IMG_2190">
+		</div>
+	</div>
 
+		<div class='slidess'>
+			<div class='slide'>
+				<img scr="pluginimages/IMG_2285">
+			</div>
+		</div>
+
+		<div class='sliders'>
+				<div class='slide'>
+					<img scr="pluginimages/IMG_2159">
+				</div>
+			</div>
 
 </main>
   </body>
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
-<script type="text/javascript" src="jquery.simpleslider.package.min.js"></script>
+<script type="text/javascript" src="jquery.simpleslider.package.min.js">
+
+$(document).ready(function(){
+	$(".slider").simpleSlider();
+});
+
+$(document).ready(function(){
+	$(".slide").simpleSlider();
+});
+
+$(document).ready(function(){
+	$(".slides").simpleSlider();
+});
+
+$(document).ready(function(){
+	$(".slidess").simpleSlider();
+});
+
+$(document).ready(function(){
+	$(".sliders").simpleSlider();
+});
+});
 
 
-
-
+</script>
 
 
 
